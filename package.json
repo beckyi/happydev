@@ -1,0 +1,9 @@
+{
+  "name": "playground",
+  "version": "0.0.1",
+  "description": "happy developer playground",
+  "main": "index.html",
+  "repository": "https://github.com/beckyi/happydev.git",
+  "author": "최재은 <beckyi@duzone.com>",
+  "license": "MIT"
+}
