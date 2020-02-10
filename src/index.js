@@ -1,4 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
 import { createStore } from "redux";
+import App from './App';
 
 //bring DOM reference
 const lightDiv = document.getElementsByClassName("light")[0];
@@ -83,3 +87,4 @@ minusButton.onclick = () => {
   store.dispatch(decrement());
 };
 
+ReactDOM.render(<App />, document.getElementById('root'));
